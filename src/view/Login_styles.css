@@ -1,0 +1,113 @@
+*{
+   -fx-background-color: lightskyblue;
+}
+.boton_saludo {
+   
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+    -fx-base: rgba(255, 78, 50, 0.89);
+    -fx-background-color: lightskyblue;
+    
+}
+
+.boton_calcular:hover {
+     -fx-background-color:#6C63FF ;
+}
+
+
+.boton_calcular {
+
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+    -fx-base: rgba(255, 78, 50, 0.89);
+    -fx-background-color: lightskyblue;
+
+}
+
+.boton_saludo:hover {
+     -fx-background-color:#6C63FF ;
+}
+    
+.text_label {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    
+}
+
+
+.combo-box{
+    -fx-border-color:#000;
+    -fx-border-style:solid;
+    -fx-border-width:1;
+}
+.combo-box .arrow{
+    -fx-background-color:#2478E9;
+}
+.combo-box .arrow-button{
+    -fx-background-color:black;
+    -fx-border-style:none;
+}
+.combo-box .arrow-button{
+    -fx-background-color:lightskyblue;
+}
+.combo-box .list-cell{
+    -fx-background-color:lightskyblue;
+}
+
+.text_labelc {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+.text_labelresult {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+
+}
+.text-field {
+  -fx-background-color: transparent, #6C63FF, transparent, black;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+       -fx-text-fill: black;
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+.text-field:hover
+{
+    -fx-background-color: transparent, #6C63FF, transparent, #6C63FF;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+}
+
+.check-box .box {
+
+-fx-background-color: white;
+-fx-border-color:grey;
+-fx-border-radius:3px; 
+
+}
+
+.check-box:selected .mark {
+
+-fx-background-color: white;
+
+}
+
+.check-box:selected .box {
+
+-fx-background-color: #6C63FF;
+}

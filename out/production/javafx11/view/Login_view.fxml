@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="518.0" prefWidth="702.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Login_controller">
+    <stylesheets>
+        <URL value="@Login_styles.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="Boton_saludo" layoutX="426.0" layoutY="317.0" mnemonicParsing="false" onAction="#click" prefHeight="34.0" prefWidth="166.0" styleClass="boton_saludo" text="Login">
+         <font>
+            <Font size="9.0" />
+         </font></Button>
+      <Label fx:id="lb_email" layoutX="351.0" layoutY="99.0" prefHeight="39.0" prefWidth="150.0" text="Email: " />
+      <ImageView id="imglogin" fx:id="img_login" fitHeight="185.0" fitWidth="261.0" layoutX="33.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true" styleClass="text_label" />
+      <TextField fx:id="tf_email" layoutX="437.0" layoutY="105.0" prefHeight="26.0" prefWidth="210.0" styleClass="text-field" />
+      <Label fx:id="lb_password" layoutX="351.0" layoutY="165.0" prefHeight="39.0" prefWidth="68.0" text="Password:" />
+      <CheckBox fx:id="cb_conditions" layoutX="351.0" layoutY="239.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="283.0" styleClass="check_box" text="  Accept terms and conditions" />
+      <PasswordField fx:id="pf_password" layoutX="437.0" layoutY="171.0" prefHeight="26.0" prefWidth="210.0" styleClass="text-field" />
+   </children>
+</AnchorPane>

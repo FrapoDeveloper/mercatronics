@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="518.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Menu_controller">
+   <stylesheets>
+      <URL value="@Login_styles.css" />
+   </stylesheets>
+   <children>
+      <Label layoutX="51.0" layoutY="21.0" styleClass="text_labelc" text="Bienvenido: " />
+      <Label fx:id="email_user" layoutX="146.0" layoutY="21.0" styleClass="text_labelc" text="email" />
+      <ImageView fx:id="img_calculator" fitHeight="269.0" fitWidth="328.0" layoutX="211.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true" />
+ 
+   </children>
+</AnchorPane>
